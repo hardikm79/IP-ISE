@@ -35,7 +35,7 @@ const EcoActionTracker = () => {
 
   return (
     <div className="eco-tracker">
-      <h1>Eco Action Tracker</h1>
+      <h1 className='eco-tracker-heading'>Eco Action Tracker</h1>
       
       <ActionList 
         actions={ECO_ACTIONS} 
